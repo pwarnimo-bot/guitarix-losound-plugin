@@ -1,0 +1,48 @@
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<urn:losound:redsun#green-machine>
+    a pset:Preset ;
+    lv2:appliesTo <urn:losound:redsun> ;
+    rdfs:label "Green Machine" ;
+    lv2:port
+        [ lv2:symbol "fuzz" ; pset:value 0.8 ] ,
+        [ lv2:symbol "octave" ; pset:value 0.15 ] ,
+        [ lv2:symbol "bass" ; pset:value 0.7 ] ,
+        [ lv2:symbol "mid" ; pset:value 0.3 ] ,
+        [ lv2:symbol "treble" ; pset:value 0.55 ] ,
+        [ lv2:symbol "ultralo" ; pset:value 1.0 ] ,
+        [ lv2:symbol "sag" ; pset:value 0.6 ] ,
+        [ lv2:symbol "cab" ; pset:value 0.1 ] ,
+        [ lv2:symbol "level" ; pset:value -8.0 ] .
+
+<urn:losound:redsun#thumb>
+    a pset:Preset ;
+    lv2:appliesTo <urn:losound:redsun> ;
+    rdfs:label "Thumb" ;
+    lv2:port
+        [ lv2:symbol "fuzz" ; pset:value 0.6 ] ,
+        [ lv2:symbol "octave" ; pset:value 0.0 ] ,
+        [ lv2:symbol "bass" ; pset:value 0.6 ] ,
+        [ lv2:symbol "mid" ; pset:value 0.5 ] ,
+        [ lv2:symbol "treble" ; pset:value 0.45 ] ,
+        [ lv2:symbol "ultralo" ; pset:value 1.0 ] ,
+        [ lv2:symbol "sag" ; pset:value 0.75 ] ,
+        [ lv2:symbol "cab" ; pset:value 0.0 ] ,
+        [ lv2:symbol "level" ; pset:value -6.0 ] .
+
+<urn:losound:redsun#freedom-run>
+    a pset:Preset ;
+    lv2:appliesTo <urn:losound:redsun> ;
+    rdfs:label "Freedom Run (octave lead)" ;
+    lv2:port
+        [ lv2:symbol "fuzz" ; pset:value 0.9 ] ,
+        [ lv2:symbol "octave" ; pset:value 0.6 ] ,
+        [ lv2:symbol "bass" ; pset:value 0.55 ] ,
+        [ lv2:symbol "mid" ; pset:value 0.6 ] ,
+        [ lv2:symbol "treble" ; pset:value 0.6 ] ,
+        [ lv2:symbol "ultralo" ; pset:value 0.0 ] ,
+        [ lv2:symbol "sag" ; pset:value 0.4 ] ,
+        [ lv2:symbol "cab" ; pset:value 0.25 ] ,
+        [ lv2:symbol "level" ; pset:value -8.0 ] .

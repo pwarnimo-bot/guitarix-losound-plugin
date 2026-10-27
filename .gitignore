@@ -1,0 +1,4 @@
+# Build outputs
+redsun.lv2/*.so
+test/render
+test/out/
