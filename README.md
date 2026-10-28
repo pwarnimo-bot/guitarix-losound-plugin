@@ -41,7 +41,7 @@ save, and it shows up in the rack's plugin list (restart Guitarix if it doesn't)
 
 ## Tips
 
-- Tune down to C standard (C G C F A D) for the real thing.
+- Tune down to C standard (C F B♭ E♭ G C) for the real thing.
 - Fuzz this hot amplifies hum: put Guitarix's noise gate in front of it.
 - Bypass Guitarix's own amp and cabinet modules; this plugin includes both.
   (Running into a clean amp + cab instead also works: set Cab to taste.)
